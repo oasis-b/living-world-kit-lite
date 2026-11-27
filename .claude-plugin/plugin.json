@@ -1,0 +1,35 @@
+{
+  "name": "living-world-kit-lite",
+  "displayName": "Living World Kit Lite for RPG Maker",
+  "version": "1.0.0",
+  "description": "Claude reads and checks your RPG Maker MV or MZ project: maps, events, database, plugins and common bugs. Free, never writes to your project.",
+  "author": {
+    "name": "oasis-b",
+    "url": "https://oasis-b.itch.io"
+  },
+  "homepage": "https://github.com/oasis-b/living-world-kit-lite",
+  "repository": "https://github.com/oasis-b/living-world-kit-lite",
+  "license": "MIT",
+  "keywords": [
+    "rpg-maker",
+    "rpg-maker-mv",
+    "rpg-maker-mz",
+    "game-development",
+    "gamedev",
+    "debugging"
+  ],
+  "icon": "icon.png",
+  "network": {
+    "hosts": []
+  },
+  "documentationUrl": "https://github.com/oasis-b/living-world-kit-lite#readme",
+  "supportUrl": "https://github.com/oasis-b/living-world-kit-lite/issues",
+  "mcpServers": {
+    "living-world-lite": {
+      "command": "node",
+      "args": [
+        "${CLAUDE_PLUGIN_ROOT}/server/lw_lite.js"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "oasis-b",
+  "owner": {
+    "name": "oasis-b",
+    "url": "https://oasis-b.itch.io"
+  },
+  "description": "RPG Maker tools for Claude by oasis-b",
+  "plugins": [
+    {
+      "name": "living-world-kit-lite",
+      "source": "./",
+      "description": "Claude reads and checks your RPG Maker MV or MZ project: maps, events, database, plugins and common bugs. Free, never writes to your project.",
+      "version": "1.0.0"
+    }
+  ]
+}

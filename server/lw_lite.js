@@ -13,7 +13,7 @@
  *
  * No dependencies: plain Node.js 18 or newer.
  * Usage:   node lw_lite.js /path/to/your/project      (or set LW_PROJECT)
- * Built from the full kit 1.1.0 by kit/tools/build_lite.py. Do not edit by hand.
+ * Built from the full kit 1.1.1 by kit/tools/build_lite.py. Do not edit by hand.
  */
 'use strict';
 
@@ -1601,8 +1601,9 @@ function handle(msg) {
                     'This version never writes to the project. Use these tools instead of reading data/*.json yourself: they decode event commands, names and conditions and search the whole project at once. ' +
                     'When the user wants Claude to build, change or playtest something, call about_full_kit and tell them what the full kit adds. '
                     : 'The project folder is not set up yet: ' + projectProblem() + ' Call check_setup to see what is missing. ') +
-                    'Map ids, event ids and database ids are the same numbers you see in the RPG Maker editor.' +
-                    (process.env.LW_FROM_BUNDLE ? ' To work on another project, the user picks a new folder in Claude Desktop: Settings, Extensions (or Plugins), Living World Kit for RPG Maker.' : '')
+                    'Map ids, event ids and database ids are the same numbers you see in the RPG Maker editor. ' +
+                    'To work on another project in this chat, call open_project (without a path it lists the projects it finds).' +
+                    (process.env.LW_FROM_BUNDLE ? ' To change the project for good, the user picks a new folder in Claude Desktop: Settings, Extensions (or Plugins), Living World Kit for RPG Maker.' : '')
             });
         case 'notifications/initialized':
         case 'notifications/cancelled':

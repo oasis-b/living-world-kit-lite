@@ -1,0 +1,15 @@
+{
+  "name": "rpg-maker-helper",
+  "displayName": "RPG Maker Helper",
+  "version": "1.0.0",
+  "description": "Claude explains your RPG Maker MV or MZ project and finds its bugs: events, switches, items, maps and plugins, in the words of the editor. Read only.",
+  "author": {
+    "name": "Living World",
+    "url": "https://oasis-b.itch.io"
+  },
+  "homepage": "https://github.com/oasis-b/living-world-kit-lite/tree/main/rpg-maker-helper",
+  "repository": "https://github.com/oasis-b/living-world-kit-lite",
+  "license": "MIT",
+  "keywords": ["rpg-maker", "rpg-maker-mv", "rpg-maker-mz", "game-development", "gamedev", "debugging"],
+  "icon": "icon.png"
+}

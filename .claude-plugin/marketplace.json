@@ -11,6 +11,12 @@
       "source": "./",
       "description": "Claude reads and checks your RPG Maker MV or MZ project: maps, events, database, plugins and common bugs. Free, never writes to your project.",
       "version": "1.0.0"
+    },
+    {
+      "name": "rpg-maker-helper",
+      "source": "./rpg-maker-helper",
+      "description": "Claude explains your RPG Maker MV or MZ project and finds its bugs: events, switches, items, maps and plugins, in the words of the editor. Read only.",
+      "version": "1.0.0"
     }
   ]
 }

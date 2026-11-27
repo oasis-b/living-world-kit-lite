@@ -10,6 +10,16 @@
   "homepage": "https://github.com/oasis-b/living-world-kit-lite/tree/main/rpg-maker-helper",
   "repository": "https://github.com/oasis-b/living-world-kit-lite",
   "license": "MIT",
-  "keywords": ["rpg-maker", "rpg-maker-mv", "rpg-maker-mz", "game-development", "gamedev", "debugging"],
-  "icon": "icon.png"
+  "keywords": [
+    "rpg-maker",
+    "rpg-maker-mv",
+    "rpg-maker-mz",
+    "game-development",
+    "gamedev",
+    "debugging"
+  ],
+  "icon": "icon.png",
+  "documentationUrl": "https://github.com/oasis-b/living-world-kit-lite/tree/main/rpg-maker-helper#readme",
+  "supportUrl": "https://github.com/oasis-b/living-world-kit-lite/issues",
+  "privacyPolicyUrl": "https://github.com/oasis-b/living-world-kit-lite/tree/main/rpg-maker-helper#privacy"
 }
